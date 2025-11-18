@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environments
+.venv/
+.env
+.env.*
+!.env.example
+
+# Tooling
+*.log
+.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
+# Project data
+/data/*.json
+!/data/.gitkeep
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
